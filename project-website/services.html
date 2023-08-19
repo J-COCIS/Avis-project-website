@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>REMINDER APP(AVIS)</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/menu.js"></script>
+  <style>
+    .menu-embedding {
+      color: rgb(255, 255, 255) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+  </style>
+</head>
+
+<body >
+  <div class="flex-row">
+    <div class="flex-item flex-column">
+      <h2 id="text-only">Services offered by Avis software app</h2>
+      <hr>
+      <div>
+        <h4 class="text">
+          1. Account and Security Service:
+         </h4>
+         <div style="margin-top: -15px;">
+           <p>
+           The app requires the user to first login or sign up first in order to bring in the aspect
+           of security in terms of confidentiality,Integrity, and Availability. this
+           ensures that the user`s data is safe and accessible by the rightful owner.
+           This service was implemented using the a Firebase Auth Service of the <a href="https://firebase.google.com/"> Firebase</a> API.
+     
+         </div>
+         <div>
+          <h4 class="text">
+            2. Database Service:
+           </h4>
+           <div style="margin-top: -15px;">
+             <p>
+            This is awesome service which stores the data of the user(reminders).
+            lt ensures that the data is available when the user re-opens or re-runs the app again. ie no loss of data.
+            This service was implemented using the Hive database.
+       
+             </p>
+           </div>
+           <div>
+            <h4 class="text">
+              3. Location Service:
+             </h4>
+             <div style="margin-top: -15px;">
+               <p>
+              This service helps to track the postion of the user, and showing the user`s current position. 
+              This was dominant in calculating the remainder distance which the user is remaining with, to reach the selected destination
+              It was implemented using the geolocator and geocoding package dependencies, and the <a href="https://www.openstreetmap.org/"> Open Street Map</a>
+              API for displaying the map.
+               </p>
+             </div>  
+             <div>
+              <h4 class="text">
+                4. Notification Service:
+               </h4>
+               <div style="margin-top: -15px;">
+                 <p>
+              The nofitication alerts and alarms are the main key driving this app, the ability to notify the user to reminnd
+              him/her is an important aspect ie scheduled and location-based notifications.
+              This was implemented the flutter local notifications dependency package.
+                 </p>
+               </div>  
+      </div>
+      
+      
+      
+    </div>
+  </div>
+</body>
+
+</html>
